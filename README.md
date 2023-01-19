@@ -95,6 +95,8 @@ The model does very well on images that it has not seen before. As shown in the 
 ![image](https://user-images.githubusercontent.com/111147280/213521290-c814af53-2442-405d-940e-3baab1f59f0e.png)
 
 
+We have used emsemble method by combining ResNet , InceptionNet and VGG and used this model to predict the image cracks.
+
 Conclusion
-This file shows how easy it has become to build real world applications using deep learning and open source data.
+This file shows how easy it has become to build real world applications using deep learning and open source data.We use transfer learning to then train the model on the training data set while measuring loss and accuracy on the validation set. As shown by the loss and accuracy numbers below, the model trains very quickly. For the last epoch, F1 score is 94.34% and validation accuracy is 94%!. This is the power of transfer learning. Our final model has a validation accuracy of 94% , Precision of 89.29%, Recall of 100% , F1 score is 94.34%.
 
